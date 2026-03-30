@@ -709,12 +709,22 @@ textarea.form-control {
   align-items: center;
 }
 
+.banner-section.section {
+  height: auto;
+}
+
 /* <<< Banner side >>> */
 .banner-section {
   position: relative;
   text-align: center;
-  background-color: #99ccff;
-  padding-top: 121px;
+  background: repeating-linear-gradient(
+    45deg,
+    #4a9e4a,
+    #4a9e4a 15px,
+    #356ba2 15px,
+    #356ba2 30px
+  );
+  padding-top: 20px;
   align-items: flex-start;
 }
 
@@ -801,7 +811,8 @@ textarea.form-control {
 .work-section {
 
   padding-bottom: 90px !important;
-  min-height: 550px;
+  min-height: auto;
+  height: auto;
   background-color: #6699cc;
 }
 
@@ -885,7 +896,7 @@ textarea.form-control {
 .work-section .title {
   margin-top: 5px;
   margin-left: 1px;
-  border-bottom: 1px solid #fff;
+  
 }
 
 .work-section .title h2 {
